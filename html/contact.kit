@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sesja contact</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dynalight&family=Tangerine:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+	<!-- @include 'style.kit' -->
+	</head>
+
+	<body>
+		<!-- @include 'nav.kit' -->
+
+		<main>
+			<section class="contact section-padding">
+				<div class="wrapper">
+					<div class="contactBoxes">
+						<div class="textBox">
+							<div class="textBox__title">
+								<h2 class="Title__Section">Masz jakieś pytania??</h2>
+								<p class="Title__Second">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Voluptatum, laborum.
+								</p>
+							</div>
+							<div class="textBox__text">
+								<p class="mainText">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Ipsum, sunt ad sit eveniet laudantium deleniti. Veritatis
+									dolorum aliquam sed quisquam adipisci inventore quae,
+									asperiores necessitatibus impedit corporis maxime? Deserunt,
+									eum!
+								</p>
+							</div>
+						</div>
+						<div class="contactBox">
+							<div class="contactBox__social">
+							</div>
+							<div class="contactBox__form">
+								<form>
+									<div class="form-box">
+										<label for="username">Nazwa użytkownika:</label>
+										<input
+											type="text"
+											id="username"
+											name="username"
+											placeholder="Podaj nazwę użytkownika"
+											required
+										/>
+										<p class="error-text">error</p>
+									</div>
+									<div class="form-box">
+										<label for="email">Adres e-mail:</label>
+										<input
+											type="email"
+											id="emailPost"
+											name="email"
+											placeholder="Podaj adres mailowy"
+											required
+										/>
+										<p class="error-text">error</p>
+									</div>
+									<div class="form-box">
+										<label for="msg">Wiadomość:</label>
+										<textarea
+											type="msg"
+											id="message"
+											name="msg"
+											placeholder="Napisz wiadomość"
+											required
+										></textarea>
+										<p class="error-text">error</p>
+									</div>
+
+									<div class="control-buttons">
+										<button class="sendBtn">Wyślij</button>
+									</div>
+								
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- @include 'footer.kit' -->
+		</main>
+
+		<script src="./dist/js/main.mini.js"></script>
+	</body>
+</html>
